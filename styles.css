@@ -1,0 +1,70 @@
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto-Regular.ttf);
+}
+
+body{
+    background-color: whitesmoke;
+    color: white;
+    font-family: Roboto, serif;
+    margin: 0;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+h1{
+    font-size: 3em;
+    margin: 20px 0 0;
+    color: #7a7777;
+}
+
+h2{
+    font-size: 2.5em;
+}
+
+#tablero{
+    margin: auto;
+    width: 350px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;                     /*no me acuerdo coo funciona esto, ver luego*/
+}
+
+/*se puede no colocar el > ?*/
+#tablero>button{
+    width: 120px;
+    height: 120px;
+    max-width: 33.33%;
+    font-size: 5em;
+    color: rgba(72, 71, 71, 0.42);
+    background: #b485ea;
+}
+
+#textoTriunfo{
+    color: #b485ea;
+    font-size: 26px;
+}
+
+.text-md {
+    font-size: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
